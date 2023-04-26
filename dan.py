@@ -75,6 +75,7 @@ def menu2():
         main2()
     elif ch == 00:
         os.system('exit')
+        os.system('exit')
 
     else:
         print('Неизвестная команда попробуйте еше раз')
