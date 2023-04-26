@@ -36,9 +36,9 @@ vic()
 
 def menu():
     print("""
-[1] информация по ip
-[2] генерация ссылки iploger
-    
+[1]  Информация по ip
+[2]  Генерация ссылки iploger
+[00] Выйти    
     """)
 menu()
 
@@ -73,6 +73,9 @@ def menu2():
         main1()
     elif ch == 2:
         main2()
+    elif ch == 00:
+        os.system('exit')
+
     else:
         print('Неизвестная команда попробуйте еше раз')
         vic()
@@ -236,3 +239,6 @@ def main2():
 
 
 menu3()
+
+
+
