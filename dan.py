@@ -134,10 +134,12 @@ def main1():
 
                 else:
                     print(R + "\nНеизвестная команда\n")
-                    m3()
+                    vic()
+                    menu()
             except ValueError:
                 print(R + "\nНеизвестная команда поробуйде еще раз \n")
-                m3()
+                vic()
+                menu()
 
         def finder(u):
             try:
@@ -231,3 +233,4 @@ def main2():
 
 
 menu3()
+
